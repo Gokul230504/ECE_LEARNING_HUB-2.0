@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verilog Tools - ECE Learning Hub</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .tool-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .tool-item {
+            flex-basis: calc(44% - 0.990rem);
+            margin-bottom: 2rem;
+            padding: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        @media (max-width: 768px) {
+            .tool-item {
+                flex-basis: 100%;
+            }
+        }
+        .installation-steps {
+            background-color: #f0f0f0;
+            padding: 1rem;
+            border-radius: 5px;
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ECE Learning Hub</h1>
+        <p>From Basic Concepts to Advanced Projects</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Concepts.html">Concepts</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="projects.html">Projects & Software</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Verilog Tools</h2>
+        <p>Explore these tools for Verilog development and simulation in your ECE projects.</p>
+        
+        <div class="tool-list">
+            <div class="tool-item">
+                <h3>Icarus Verilog</h3>
+                <p>A Verilog simulation and synthesis tool that supports IEEE-1364 and works with the gtkwave waveform viewer.</p>
+                <a href="http://iverilog.icarus.com/" target="_blank">Download Icarus Verilog</a>
+                <div class="installation-steps">
+                    <h4>Installation Steps:</h4>
+                    <ol>
+                        <li>Visit the Icarus Verilog download page.</li>
+                        <li>Download the appropriate package for your OS.</li>
+                        <li>For Windows: Run the installer.</li>
+                        <li>For Linux: Use your package manager or compile from source.</li>
+                        <li>Install GTKWave for waveform viewing.</li>
+                    </ol>
+                </div>
+            </div>
+            
+            <div class="tool-item">
+                <h3>Verilator</h3>
+                <p>A fast, open-source Verilog HDL simulator that compiles Verilog to C++ or SystemC code.</p>
+                <a href="https://www.veripool.org/verilator/" target="_blank">Download Verilator</a>
+                <div class="installation-steps">
+                    <h4>Installation Steps:</h4>
+                    <ol>
+                        <li>For Linux: Use your package manager to install.</li>
+                        <li>For Windows: Use MSYS2 or WSL to install.</li>
+                        <li>For advanced users: Clone the GitHub repository and build from source.</li>
+                    </ol>
+                </div>
+            </div>
+            
+            <div class="tool-item">
+                <h3>ModelSim-Intel FPGA Edition</h3>
+                <p>A simulation and debug tool for FPGA designs, supporting Verilog, VHDL, and SystemVerilog.</p>
+                <a href="https://www.intel.com/content/www/us/en/software-kit/750666/intel-quartus-prime-lite-edition-design-software-version-22-1-for-windows.html" target="_blank">Download ModelSim-Intel FPGA Edition</a>
+                <div class="installation-steps">
+                    <h4>Installation Steps:</h4>
+                    <ol>
+                        <li>Download the Intel Quartus Prime Lite Edition (includes ModelSim).</li>
+                        <li>Run the installer and follow the on-screen instructions.</li>
+                        <li>Select ModelSim-Intel FPGA Edition during installation.</li>
+                        <li>Launch ModelSim from the Intel Quartus Prime software.</li>
+                    </ol>
+                </div>
+            </div>
+            
+            <div class="tool-item">
+                <h3>EDA Playground</h3>
+                <p>A web-based tool for editing, simulating, and synthesizing Verilog and other HDL languages.</p>
+                <a href="https://www.edaplayground.com/" target="_blank">Access EDA Playground</a>
+                <div class="installation-steps">
+                    <h4>How to Use:</h4>
+                    <ol>
+                        <li>Visit the EDA Playground website.</li>
+                        <li>Create a free account or use as a guest.</li>
+                        <li>Choose Verilog as your language.</li>
+                        <li>Write or paste your Verilog code and simulate directly in the browser.</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 ECE Learning Hub. All rights reserved.</p>
+    </footer>
+</body>
+</html>

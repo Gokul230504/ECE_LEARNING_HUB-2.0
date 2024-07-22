@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embedded Systems Tools - ECE Learning Hub</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .tool-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .tool-item {
+            flex-basis: calc(44% - 0.990rem);
+            margin-bottom: 2rem;
+            padding: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        @media (max-width: 768px) {
+            .tool-item {
+                flex-basis: 100%;
+            }
+        }
+        .installation-steps {
+            background-color: #f0f0f0;
+            padding: 1rem;
+            border-radius: 5px;
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ECE Learning Hub</h1>
+        <p>From Basic Concepts to Advanced Projects</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Concepts.html">Concepts</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="projects.html">Projects & Software</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Embedded Systems Tools</h2>
+        <p>Explore these tools for embedded systems development in your ECE projects.</p>
+        
+        <div class="tool-list">
+            <div class="tool-item">
+                <h3>Arduino IDE</h3>
+                <p>An open-source integrated development environment for Arduino boards, supporting C and C++ programming.</p>
+                <a href="https://www.arduino.cc/en/software" target="_blank">Download Arduino IDE</a>
+                <div class="installation-steps">
+                    <h4>Installation Steps:</h4>
+                    <ol>
+                        <li>Go to the Arduino download page.</li>
+                        <li>Choose your operating system and download the installer.</li>
+                        <li>Run the installer and follow the on-screen instructions.</li>
+                        <li>Launch Arduino IDE after installation.</li>
+                    </ol>
+                </div>
+            </div>
+            
+            <div class="tool-item">
+                <h3>PlatformIO</h3>
+                <p>A cross-platform, cross-architecture, multiple framework, professional tool for embedded systems engineers and software developers.</p>
+                <a href="https://platformio.org/install" target="_blank">Install PlatformIO</a>
+                <div class="installation-steps">
+                    <h4>Installation Steps:</h4>
+                    <ol>
+                        <li>Install Visual Studio Code if you haven't already.</li>
+                        <li>Open VS Code and go to the Extensions view.</li>
+                        <li>Search for PlatformIO IDE and install it.</li>
+                        <li>Restart VS Code after installation.</li>
+                    </ol>
+                </div>
+            </div>
+            
+            <div class="tool-item">
+                <h3>STM32CubeIDE</h3>
+                <p>An all-in-one development tool for STM32 microcontrollers, offering an advanced C/C++ development platform with peripheral configuration, code generation, code compilation, and debug features.</p>
+                <a href="https://www.st.com/en/development-tools/stm32cubeide.html" target="_blank">Download STM32CubeIDE</a>
+                <div class="installation-steps">
+                    <h4>Installation Steps:</h4>
+                    <ol>
+                        <li>Go to the STM32CubeIDE download page.</li>
+                        <li>Select your operating system and download the installer.</li>
+                        <li>Run the installer and follow the installation wizard.</li>
+                        <li>Launch STM32CubeIDE after installation.</li>
+                    </ol>
+                </div>
+            </div>
+            
+            <div class="tool-item">
+                <h3>MPLAB X IDE</h3>
+                <p>A software program that runs on a PC to develop applications for Microchip microcontrollers and digital signal controllers.</p>
+                <a href="https://www.microchip.com/en-us/tools-resources/develop/mplab-x-ide" target="_blank">Download MPLAB X IDE</a>
+                <div class="installation-steps">
+                    <h4>Installation Steps:</h4>
+                    <ol>
+                        <li>Visit the MPLAB X IDE download page.</li>
+                        <li>Choose your operating system and download the installer.</li>
+                        <li>Run the installer and follow the on-screen prompts.</li>
+                        <li>Launch MPLAB X IDE after installation.</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 ECE Learning Hub. All rights reserved.</p>
+    </footer>
+</body>
+</html>

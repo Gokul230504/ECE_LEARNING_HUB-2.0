@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circuit Simulation Software - ECE Learning Hub</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .software-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .software-item {
+            flex-basis: calc(44% - 0.990rem);
+            margin-bottom: 2rem;
+            padding: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        @media (max-width: 768px) {
+            .software-item {
+                flex-basis: 100%;
+            }
+        }
+        
+        .installation-steps {
+            background-color: #f0f0f0;
+            padding: 1rem;
+            border-radius: 5px;
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ECE Learning Hub</h1>
+        <p>From Basic Concepts to Advanced Projects</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Concepts.html">Concepts</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="projects.html">Projects & Software</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Circuit Simulation Software</h2>
+        <p>Explore these free software tools to simulate and design electronic circuits for your ECE projects.</p>
+        
+        <div class="software-list">
+            <!-- LTspice -->
+            <div class="software-item">
+                <h3>LTspice</h3>
+                <p>A high-performance SPICE simulator, schematic capture, and waveform viewer with enhancements and models for easing the simulation of analog circuits.</p>
+                <a href="https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html" target="_blank">Download LTspice</a>
+                <div class="installation-steps">
+                    <h4>Installation Steps:</h4>
+                    <ol>
+                        <li>Download the installer from the official website.</li>
+                        <li>Run the installer and follow the on-screen instructions.</li>
+                        <li>Launch LTspice after installation.</li>
+                        <li>No license key is required as it's free for use.</li>
+                    </ol>
+                </div>
+            </div>
+            
+            <!-- KiCad EDA -->
+            <div class="software-item">
+                <h3>KiCad EDA</h3>
+                <p>An open-source software suite for Electronic Design Automation (EDA). It facilitates the design of schematics for electronic circuits and their conversion to PCB designs.</p>
+                <a href="https://www.kicad.org/download/" target="_blank">Download KiCad</a>
+                <div class="installation-steps">
+                    <h4>Installation Steps:</h4>
+                    <ol>
+                        <li>Go to the KiCad download page and select your operating system.</li>
+                        <li>Download the appropriate installer for your system.</li>
+                        <li>Run the installer and follow the installation wizard.</li>
+                        <li>Launch KiCad after installation is complete.</li>
+                    </ol>
+                </div>
+            </div>
+            
+            <!-- Qucs -->
+            <div class="software-item">
+                <h3>Qucs (Quite Universal Circuit Simulator)</h3>
+                <p>An open-source circuit simulator with a graphical user interface. It supports many types of circuit simulation types, including DC, AC, S-parameter, and harmonic balance analysis.</p>
+                <a href="http://qucs.sourceforge.net/download.html" target="_blank">Download Qucs</a>
+                <div class="installation-steps">
+                    <h4>Installation Steps:</h4>
+                    <ol>
+                        <li>Visit the Qucs download page and select your operating system.</li>
+                        <li>Download the installer package.</li>
+                        <li>For Windows: Run the .exe file and follow the installation wizard.</li>
+                        <li>For Linux: Use your package manager or build from source following the provided instructions.</li>
+                        <li>Launch Qucs after installation.</li>
+                    </ol>
+                </div>
+            </div>
+            
+            <!-- Fritzing -->
+            <div class="software-item">
+                <h3>Fritzing</h3>
+                <p>An open-source hardware initiative that makes electronics accessible as a creative material for anyone. It offers a software tool, a community website, and services.</p>
+                <a href="https://fritzing.org/download/" target="_blank">Download Fritzing</a>
+                <div class="installation-steps">
+                    <h4>Installation Steps:</h4>
+                    <ol>
+                        <li>Go to the Fritzing download page.</li>
+                        <li>Choose your operating system and download the installer.</li>
+                        <li>For Windows and macOS: Run the installer and follow the prompts.</li>
+                        <li>For Linux: Extract the downloaded archive and run the Fritzing executable.</li>
+                        <li>Note: Fritzing asks for a donation, but you can download it for free by entering $0 in the donation field.</li>
+                    </ol>
+                </div>
+            </div>
+            
+            <!-- CircuitLab -->
+            <div class="software-item">
+                <h3>CircuitLab</h3>
+                <p>A web-based circuit simulator and schematic capture tool. While it offers a paid version, there's also a free version with limited features suitable for basic simulations.</p>
+                <a href="https://www.circuitlab.com/" target="_blank">Access CircuitLab</a>
+                <div class="installation-steps">
+                    <h4>How to Use:</h4>
+                    <ol>
+                        <li>Visit the CircuitLab website.</li>
+                        <li>Sign up for a free account.</li>
+                        <li>No installation required - use it directly in your web browser.</li>
+                        <li>Start creating and simulating circuits online.</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 ECE Learning Hub. All rights reserved.</p>
+    </footer>
+</body>
+</html>

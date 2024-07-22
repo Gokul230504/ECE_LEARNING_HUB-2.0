@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses - ECE Learning Hub</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .course-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .course-item {
+            flex-basis: calc(33% - 2rem);
+            margin-bottom: 2rem;
+            padding: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        @media (max-width: 768px) {
+            .course-item {
+                flex-basis: calc(50% - 2rem);
+            }
+        }
+        @media (max-width: 480px) {
+            .course-item {
+                flex-basis: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ECE Learning Hub</h1>
+        <p>From Basic Concepts to Advanced Projects</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Concepts.html">Concepts</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="projects.html">Softwares</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>ECE Courses</h2>
+        <p>Explore a variety of ECE courses from top platforms to enhance your skills and knowledge.</p>
+        
+        <h3>NPTEL Courses</h3>
+        <div class="course-list">
+            <div class="course-item">
+                <h4>Digital Circuits</h4>
+                <p>Learn about logic gates, combinational and sequential circuits, and more.</p>
+                <a href="https://nptel.ac.in/courses/117/106/117106086/" target="_blank">Enroll Now</a>
+                <p>Duration: 12 weeks</p>
+            </div>
+            <div class="course-item">
+                <h4>Analog Electronic Circuits</h4>
+                <p>Study diodes, transistors, amplifiers, and other analog components.</p>
+                <a href="https://nptel.ac.in/courses/117/106/117106088/" target="_blank">Enroll Now</a>
+                <p>Duration: 12 weeks</p>
+            </div>
+            <div class="course-item">
+                <h4>Signals and Systems</h4>
+                <p>Explore continuous and discrete-time signals and systems.</p>
+                <a href="https://nptel.ac.in/courses/108/101/108101098/" target="_blank">Enroll Now</a>
+                <p>Duration: 12 weeks</p>
+            </div>
+        </div>
+
+        <h3>edX Courses</h3>
+        <div class="course-list">
+            <div class="course-item">
+                <h4>MicroMasters Program in Electronic Systems Design</h4>
+                <p>Master the skills needed to design modern electronic systems.</p>
+                <a href="https://www.edx.org/micromasters/ucsandiegox-electronics-design" target="_blank">Enroll Now</a>
+                <p>Duration: 6-8 months</p>
+            </div>
+            <div class="course-item">
+                <h4>Embedded Systems - Shape The World</h4>
+                <p>Learn to design and create embedded systems with microcontrollers.</p>
+                <a href="https://www.edx.org/course/embedded-systems-shape-the-world-microcontroller-i" target="_blank">Enroll Now</a>
+                <p>Duration: 16 weeks</p>
+            </div>
+            <div class="course-item">
+                <h4>Introduction to Communication Science</h4>
+                <p>Explore the fundamentals of communication systems and theory.</p>
+                <a href="https://www.edx.org/course/introduction-to-communication-science" target="_blank">Enroll Now</a>
+                <p>Duration: 8 weeks</p>
+            </div>
+        </div>
+
+        <h3>Udemy Courses</h3>
+        <div class="course-list">
+            <div class="course-item">
+                <h4>FPGA Design for Embedded Systems</h4>
+                <p>Learn FPGA design using VHDL and Verilog for embedded systems.</p>
+                <a href="https://www.udemy.com/course/fpga-design-for-embedded-systems/" target="_blank">Enroll Now</a>
+                <p>Duration: 17 hours</p>
+            </div>
+            <div class="course-item">
+                <h4>Digital Signal Processing (DSP) From Ground Up™ in Python</h4>
+                <p>Master DSP concepts and implementation using Python.</p>
+                <a href="https://www.udemy.com/course/digital-signal-processing-dsp-from-ground-uptm-in-python/" target="_blank">Enroll Now</a>
+                <p>Duration: 15.5 hours</p>
+            </div>
+            <div class="course-item">
+                <h4>RF Basics: Radio Frequency Electronics Fundamentals</h4>
+                <p>Understand the basics of RF electronics and wireless communication.</p>
+                <a href="https://www.udemy.com/course/rf-fundamentals/" target="_blank">Enroll Now</a>
+                <p>Duration: 4 hours</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 ECE Learning Hub. All rights reserved.</p>
+    </footer>
+</body>
+</html>

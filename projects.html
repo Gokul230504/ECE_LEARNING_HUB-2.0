@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects & Software - ECE Learning Hub</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .software-categories {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .category-item {
+            flex-basis: calc(50% - 5px);
+            margin: 10px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            text-align: center;
+        }
+        @media (max-width: 768px) {
+            .category-item {
+                flex-basis: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ECE Learning Hub</h1>
+        <p>From Basic Concepts to Advanced Projects</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Concepts.html">Concepts</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="projects.html">Projects & Software</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Projects & Software</h2>
+        <p>Explore our software tools and resources for your ECE projects.</p>
+        
+        <div class="software-categories">
+            <div class="category-item">
+                <h3>Circuit Simulation</h3>
+                <p>Tools for simulating and analyzing electronic circuits.</p>
+                <a href="Circuit_tool.html" class="btn">Click here</a>
+               
+            </div>
+            
+            <div class="category-item">
+                <h3>Verilog Code</h3>
+                <p>Verilog code(VHDL,Verilog HDL...)</p>
+                <a href="verilog_tool.html" class="btn">Click here</a>
+            </div>
+            
+            <div class="category-item">
+                <h3>Embedded Software</h3>
+                <p>Embedded languages like (Assembly in C,C++...)</p>
+                <a href="Embedded_tool.html" class="btn">Click here</a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 ECE Learning Hub. All rights reserved.</p>
+    </footer>
+</body>
+</html>
